@@ -1,0 +1,5 @@
+{
+  "autorun": true,
+  "folder": "日志",
+  "template": "tmp/日志模版"
+}

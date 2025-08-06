@@ -1,0 +1,7 @@
+{
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "卡片",
+  "attachmentFolderPath": "./assets",
+  "promptDelete": false
+}
