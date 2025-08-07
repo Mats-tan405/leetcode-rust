@@ -3,7 +3,7 @@
  *
  * [3] Longest Substring Without Repeating Characters
  */
-pub struct Solution;
+struct Solution;
 // @lc code=start
 impl Solution {
     pub fn length_of_longest_substring(s: String) -> i32 {

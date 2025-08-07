@@ -3,7 +3,7 @@
  *
  * [4] 寻找两个正序数组的中位数
  */
-pub struct Solution;
+struct Solution;
 // @lc code=start
 pub fn merge_sort(nums1: Vec<i32>, nums2: Vec<i32>) -> Vec<i32> {
     let mut merged = Vec::with_capacity(nums1.len() + nums2.len());

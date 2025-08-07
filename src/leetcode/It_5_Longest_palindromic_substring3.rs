@@ -3,8 +3,8 @@
  *
  * [5] 最长回文子串
  */
-#[cfg(test)]
-mod solution {
+// #[cfg(test)]
+// mod solution {
 struct Solution;
 // @lc code=start
 impl Solution {
@@ -30,6 +30,18 @@ impl Solution {
     }
 }
 // @lc code=end
+    // #[test]
+    // fn longest_palindrome_test() {
+    //     let s = "ccc".to_string();
+    //     let s2 = Solution::longest_palindrome(s);
+    //     assert_eq!(s2,"ccc");
+    // }
+// }
+
+#[cfg(test)]
+mod solution {
+    use super::*;
+
     #[test]
     fn longest_palindrome_test() {
         let s = "ccc".to_string();
